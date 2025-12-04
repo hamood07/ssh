@@ -1,5 +1,5 @@
 provider "google" {
-  project = "your-gcp-project-id"
+  project = "qwiklabs-gcp-02-866fc3d76397"
   region  = "us-central1"
 }
 
