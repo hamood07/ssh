@@ -1,8 +1,3 @@
-provider "google" {
-  project = "qwiklabs-gcp-02-866fc3d76397"
-  region  = "us-central1"
-}
-
 resource "google_compute_instance" "vm_instance" {
   name         = "jenkins-vm"
   machine_type = "e2-medium"
