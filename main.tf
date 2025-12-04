@@ -1,7 +1,6 @@
 resource "google_compute_instance" "vm_instance" {
   name         = "jenkins-vm"
   machine_type = "e2-medium"
-  zone         = "us-central1-c"
 
   boot_disk {
     initialize_params {
